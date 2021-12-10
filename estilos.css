@@ -1,0 +1,87 @@
+* { 
+margin: 0;
+box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+    background-color: darkslategrey;
+}
+h1 {
+    color: gold;
+    text-align: center;
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: sans-serif;
+
+}
+
+
+header {
+background-color: rgb(1, 1, 10);
+height: 80px;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link { 
+    color: honeydew;
+    text-decoration: none;
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item {
+    font-size: 15px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.nav-menu-link:hover {
+    background-color: gray;
+    transition: 0.5s;
+}
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    
+
+
+}
